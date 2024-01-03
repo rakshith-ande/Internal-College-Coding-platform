@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+	//Write Your code below
+    int n = scanf("%d", &n);
+    while(n-->0) {
+    	int a = scanf("%d", &a);
+        int b = scanf("%d", &b);
+        printf("%d", a+b);
+    }
+}

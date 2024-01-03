@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	long long int a,b,t;
+    scanf("%lld",&t);
+    while(t--)
+    {
+    	scanf("%lld %lld",&a,&b);
+        printf("%lld\n",a+b);
+    }
+}
